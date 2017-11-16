@@ -41,3 +41,5 @@ Test cases:
 - When I search for nothing, it should return with no search results.
 - When I search for "Foobar", it should return a mixture of both subreddits and specific link results.
 - When I try to search for an absurdly long string, the text box should have a maximum input length that prevents me from doing so.​
+- When I search using special characters, it should return known results with those characters.
+- When I search for "Foobar", it should return the most popular results first, based on the reddit score.
