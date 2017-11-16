@@ -20,7 +20,8 @@ Grunt is setup to launch the tests defined in wdio.reddit.config
   
 'grunt run'  
 
-or to run without grunt:
+or to run without grunt from the command line:
+./node_modules/.bin/wdio conf/wdio.reddit.conf.js
 
   
 ### Pertinant Information ###
